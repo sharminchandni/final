@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Roboto+Condensed');
+body{	
+	margin: 0;
+	padding: 0;
+	color: #999;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+*{
+	transition: 0.04s;
+	-webkit-transition: 0.04s;
+	-moz-transition: 0.04s;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color:#27AE61;
+    border-color: #b7b3b1;
+}
+.logo{
+	font-size: 22px;
+	color: #fff!important;
+
+}
+.logo span{
+	font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+	color: rgba(5, 79, 14, 0.71);   
+ 	text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    font-weight: 900;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover{ color: #dbd0b2;
+    background-color: rgb(8, 150, 48);}
+.navbar-default .navbar-nav>li>a:frist-child:after{color:#42b061;}
+
+.carousel-caption {
+	text-align: left;
+	left: 10%;
+	top:50%;
+	transform: translateY(-50%);
+
+}
+.carousel-caption h1{
+	font-size: 60px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #42b061;
+}
+.carousel-caption h2{
+	max-width: 570px;
+	font-size:52px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:500;
+	color: white;
+
+}
+
+.btn-custom{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 15px 30px;
+	background: #42b061;
+	margin-right: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+
+}
+.btn-custom:hover{
+	background:#fff;
+	color:#42b061;
+
+}
+.btn-custom last child:hover{
+	background:#fff;
+	color:#42b061;
+}
+
+.team-heading h2 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:#177532;
+    text-transform: uppercase;
+}
+.team-heading span{
+	font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(61, 208, 80, 0.71);    
+    text-align: center;
+    text-transform: uppercase;
+}
+
+}
+.social{
+	display:inline-block;
+	margin-left: 60px;
+}
+
+.social li{
+
+}
+.social li a{
+	background: #E1E1E1;
+	color: #42b061;
+	width: 16px;
+	height: 16px;
+	display: block;
+	text-align: center;
+	border-radius:3px;
+	font-size: 12px;
+
+}
+.social li a:hover{
+	background: #42b061;
+	color: #E1E1E1;
+
+}
