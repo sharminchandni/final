@@ -7,8 +7,8 @@ body{
 }
 *{
 	transition: 0.04s;
-	-webkit-transition: 0.04s;
-	-moz-transition: 0.04s;
+	-webkit-transition: 0.01s;
+	-moz-transition: 0.01s;
 }
 
 .navbar {
@@ -90,16 +90,44 @@ body{
 	background:#fff;
 	color:#42b061;
 }
-
-.team-heading h2 {
-    font-size: 40px;
+.h2{
+	font-size: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color:#177532;
     text-transform: uppercase;
+
 }
-.team-heading span{
-	font-size: 40px;
+.h2 span{font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(61, 208, 80, 0.71);    
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.heading h2{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(153, 153, 153, 0.35);
+    padding-bottom: 8px;
+    color: #27ae61;
+    font-weight:bold;
+    font-size: 45px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+.heading h2:hover {
+    border-bottom: 2px solid green;
+    padding-bottom: 8px;
+    top: 50%;
+    left: 50%;
+    transform: scale(1);
+}
+
+.heading span{
+	font-size: 45px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: rgba(61, 208, 80, 0.71);    
@@ -107,7 +135,6 @@ body{
     text-transform: uppercase;
 }
 
-}
 .social{
 	display:inline-block;
 	margin-left: 60px;
@@ -130,5 +157,63 @@ body{
 .social li a:hover{
 	background: #42b061;
 	color: #E1E1E1;
+}
+.btn-custom1{
+	text-transform: uppercase;
+	color: #fff;
+	padding: 30px 30px;
+	background: #42b061;
+	margin-right: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#team{
+	padding: 50px 0;
+    background-color: rgba(0,0,0,.075);
+}
+
+.info{
+	background: #ffffff;
+	padding-bottom: 20px;
+}
+
+
+.doc-content{
+
+}
+.doc-content h4{
+
+}
+.doc-content span{
+	
+}
+.doc-content p{
+	
+}
+
+/* gallery */
+#gallery{
+	padding: 60px 0;
+	background: #ffffff;
+
+
+}
+.gallery{
+
+}
+/* pricing */
+#price{
+	padding: 60px 0;
+    background-color: rgba(0,0,0,.075);
+}
+
+
+
+/* contact */
+#contact{
+	padding: 60px 0;
+	background: #ffffff;
 
 }
