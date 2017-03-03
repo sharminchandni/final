@@ -218,7 +218,25 @@ padding: 20px 30px;
 	padding: 60px 0;
     background-color: rgba(0,0,0,.075);
 }
+.head{
+	background-color: #27ae61 !important;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: 2px solid #5db55f;
+    border-radius: 10px;
+}
+.join{
+	background-color: #27ae61 !important;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: 2px solid #5db55f;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: content-box;
 
+}
 
 
 /* contact */
