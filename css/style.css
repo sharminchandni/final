@@ -210,7 +210,7 @@ padding: 20px 30px;
 	position: relative;
 
 }
-.gallery a{
+.gallery-pic a{
 	color: #888;
     background: #fff;
     border-radius: 50%;
@@ -223,39 +223,46 @@ padding: 20px 30px;
 
 }
 .gallery-pic{
-	margin: 40px 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
-.gallery .search {
+.gallery-pic .search {
     position: absolute;
     top: 60%;
     left: 60%;
 transform: translate(-60%,-60%);
 opacity: 0;
 }
-.gallery .link{
+.gallery-pic .link{
 	position: absolute;
     top: 60%;
-    left: 40%;
+    left:40%;
    transform: translate(-40%,-60%);
    opacity: 0;
 
 }
-.gallery img{
 
+.gallery-pic:hover .search{
+	top: 50%;
+    left:60%;
+	transform: translateY(-50%);
+	opacity: 1;
 }
-.gallery .search:hover{
-	top: 60%;
-    left: 60%;
-transform: translate(-60%,-60%);
-opacity: 1;
-
+.gallery-pic:hover .link{
+	top: 50%;
+    left:40%;
+	transform: translateY(-50%);
+   	opacity: 1;
 }
-.gallery .link:hover{
-	top: 60%;
-    left: 40%;
-   transform: translate(-40%,-60%);
-   opacity: 1;
-
+.gallery-pic:after{
+	top:0;
+	left:0;
+	content:"";
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.8);
+	position:absolute;
 }
 
 
@@ -275,12 +282,15 @@ opacity: 1;
 }
 
 th{
-	color:#ffffff;
-    background: rgba(66, 176, 97, 0.72);
-    padding: 40px 10px;
-    border: 5px solid #3c763d;
-    border-radius: 8px;
-    text-align: center;
+	text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    background: #27ae61;
+    padding: 45px 0 !important;
+    border: 1px solid #31a752 !important;
+    border-radius: 5px;
+    font-weight: bold !important;
 }
 .head{
 	text-align: center;
@@ -291,12 +301,13 @@ th{
     padding: 49px 0;
 }
 .money{
-	background-color:#27ae61;
-    font-size: 30px;
+	background: #209C54;
     color: #fff;
-    padding: 20px 40px;
-    border: 2px solid #5db55f;
-    border-radius: 10px;
+    margin: 0;
+    font-size: 25px;
+    padding: 10px 0 !important;
+    border-top: 1px #209c54 solid !important;
+    text-transform: uppercase !important;
 
 }
 .join{
