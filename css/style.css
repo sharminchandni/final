@@ -167,9 +167,10 @@ body{
 }
 
 .info{
-	background: #ffffff;
-	padding-bottom: 20px;
+    background: #ffffff;
+    margin-bottom:26px;
 }
+
 
 
 .doc-content{
@@ -239,6 +240,9 @@ opacity: 0;
    opacity: 0;
 
 }
+.gallery img{
+
+}
 .gallery .search:hover{
 	top: 60%;
     left: 60%;
@@ -255,28 +259,35 @@ opacity: 1;
 }
 
 
-.gl{
-	margin: 10px 0;
 
-}
 
 /* pricing */
 #price{
 	padding: 60px 0;
     background-color: rgba(0,0,0,.075);
 }
-table{
-	border: b
+.fix {
+	border: 5px solid #d3e5cc;
+    width: 50.33%
+ 	height:auto;
+    border-radius: 5px;
+    text-align: center;
 }
-.th{
 
+th{
+	color:#ffffff;
+    background: rgba(66, 176, 97, 0.72);
+    padding: 40px 10px;
+    border: 5px solid #3c763d;
+    border-radius: 8px;
+    text-align: center;
 }
 .head{
 	text-align: center;
     text-transform: uppercase;
     color: #fff;
     font-size: 50px;
-    background: #27ae61;
+	background-color: #dff0d8;
     padding: 49px 0;
 }
 .money{
@@ -310,3 +321,5 @@ table{
 #contact{
 	padding: 60px 0;
 	background: #ffffff;
+
+}
