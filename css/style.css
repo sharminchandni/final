@@ -10,6 +10,9 @@ body{
 	-webkit-transition: 0.01s;
 	-moz-transition: 0.01s;
 }
+.div{
+	justify-content: center;
+}
 
 .navbar {
     margin-bottom: 0;
@@ -203,11 +206,55 @@ padding: 20px 30px;
 
 }
 .gallery{
+	position: relative;
+
+}
+.gallery a{
+	color: #888;
+    background: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    line-height: 35px;
 
 }
 .gallery-pic{
 	margin: 40px 0;
 }
+.gallery .search {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+transform: translate(-60%,-60%);
+opacity: 0;
+}
+.gallery .link{
+	position: absolute;
+    top: 60%;
+    left: 40%;
+   transform: translate(-40%,-60%);
+   opacity: 0;
+
+}
+.gallery .search:hover{
+	top: 60%;
+    left: 60%;
+transform: translate(-60%,-60%);
+opacity: 1;
+
+}
+.gallery .link:hover{
+	top: 60%;
+    left: 40%;
+   transform: translate(-40%,-60%);
+   opacity: 1;
+
+}
+
+
 .gl{
 	margin: 10px 0;
 
@@ -218,13 +265,28 @@ padding: 20px 30px;
 	padding: 60px 0;
     background-color: rgba(0,0,0,.075);
 }
+table{
+	border: b
+}
+.th{
+
+}
 .head{
-	background-color: #27ae61 !important;
+	text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    background: #27ae61;
+    padding: 49px 0;
+}
+.money{
+	background-color:#27ae61;
     font-size: 30px;
-    color: #ffffff;
+    color: #fff;
     padding: 20px 40px;
     border: 2px solid #5db55f;
     border-radius: 10px;
+
 }
 .join{
 	background-color: #27ae61 !important;
@@ -236,6 +298,11 @@ padding: 20px 30px;
     text-align: center;
     box-sizing: content-box;
 
+
+}
+.fix{
+	width: 50.33%
+	height:auto;
 }
 
 
@@ -243,5 +310,3 @@ padding: 20px 30px;
 #contact{
 	padding: 60px 0;
 	background: #ffffff;
-
-}
